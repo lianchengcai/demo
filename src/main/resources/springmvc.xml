@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:p="http://www.springframework.org/schema/p" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" 
+    xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xsi:schemaLocation="http://www.springframework.org/schema/mvc 
+    			http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+				http://www.springframework.org/schema/beans 
+				http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+				http://www.springframework.org/schema/context 
+				http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+	
+	<mvc:annotation-driven conversion-service="conversionService" validator="validator"></mvc:annotation-driven>
+	
+	<!-- 
+		spring可以自动去扫描base-package下面或者子包下面的java文件，
+		如果扫描到有@Component @Controller @Service @Repository等这些注解的类，则把这些类注册为bean 
+	-->
+    <context:component-scan base-package="cn.edu.fjnu.*" />
+
+    <!-- 
+    	模型解析，在请求时为模型视图名称添加前后缀 
+    	比如在controller类中需要请求/WEB-INF/page/index.jsp文件，直接写index就可以了
+    -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/" p:suffix=".jsp" />
+	
+	
+	<!-- 校验器 -->
+	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<!-- 校验器 -->
+		<property name="providerClass" value="org.hibernate.validator.HibernateValidator"/>
+		<!-- 指定校验使用的资源文件,在文件中配置校验的错误信息 -->
+		<property name="validationMessageSource" ref="messageSource"/>
+	</bean>
+
+	<!-- 校验错误信息配置文件 -->
+	<bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+		<!-- 资源文件名 -->
+		<property name="basenames">
+			<list>
+				<value>classpath:CustomValidationMessage</value>
+			</list>
+		</property>
+		<!-- 资源文件编码格式 -->
+		<property name="fileEncodings" value="utf-8"/>
+		<!-- 对资源文件内容缓存时间，单位为秒 -->
+		<property name="cacheSeconds" value="120"/>
+	</bean>
+	
+	<!-- 自定义参数绑定 -->
+	<bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+		<!-- 转换器 -->
+		<property name="converters">
+			<list>
+				<!-- 日期类型的转换 -->
+				<bean class="cn.edu.fjnu.convert.CustomDateConverter"/>
+			</list>
+		</property>
+	</bean>
+	
+	
+	
+	
+</beans>

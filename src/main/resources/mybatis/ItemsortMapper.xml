@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="cn.edu.fjnu.dao.ItemsortDao">
+	
+	<!-- 查看物品类型 -->
+	<select id="findItemsort" resultType="cn.edu.fjnu.entity.Itemsort">
+		select * from itemsort
+	</select>
+	
+	<!-- 根据id查询物品类型 -->
+	<select id="findItemsortById" parameterType="java.lang.Integer" resultType="cn.edu.fjnu.entity.Itemsort">
+		select * from itemsort where id=#{id}
+	</select>
+	
+	<!-- 添加物品类型 -->
+	<select id="addItemsort" parameterType="cn.edu.fjnu.entity.Itemsort">
+		insert into itemsort(itemsortNumber,itemsortName,note) values(#{itemsortNumber},#{itemsortName},#{note}) 
+	</select>
+	
+	<!-- 修改物品类型 -->
+	<update id="updateItemsortById" parameterType="cn.edu.fjnu.entity.Itemsort">
+		update itemsort set itemsortNumber=#{itemsortNumber},itemsortName=#{itemsortName},note=#{note} where id=#{id}
+	</update>
+	
+	<!-- 删除物品类型-->
+	<delete id="deleteItemsortById" parameterType="java.lang.Integer">
+		delete from itemsort where id=#{id}
+	</delete>
+	
+	<!-- 根据物品类型查询该类物品 -->
+	<select id="findItemsByItemsort" parameterType="java.lang.String" resultType="cn.edu.fjnu.entity.Items">
+		select * from items where sort=#{sort}
+	</select>
+	
+	<!-- 查看所有物品信息 -->
+	<select id="findItems" resultType="cn.edu.fjnu.entity.Items">
+		select * from items 
+	</select>
+	
+	<!-- 根据id查询物品信息 -->
+	<select id="findItemsById" parameterType="java.lang.Integer" resultType="cn.edu.fjnu.entity.Items">
+		select * from items where id=#{id}
+	</select>
+	
+	<!-- 修改物品 -->
+	<update id="updateItemsById" parameterType="cn.edu.fjnu.entity.Items">
+		update items set number=#{number},name=#{name},sort=#{sort},model=#{model},
+		piece=#{piece},price=#{price},totalNum=#{totalNum},totalMoney=#{totalMoney},
+		higher=#{higher},lower=#{lower},sup=#{sup},note=#{note} where id=#{id}
+	</update>
+	
+	<!-- 添加物品 -->
+	<select id="addItems" parameterType="cn.edu.fjnu.entity.Items">
+		insert into items(number,name,sort,model,piece,price,totalNum,totalMoney,higher,lower,sup,note) 
+		values(#{number},#{name},#{sort},#{model},#{piece},#{price},#{totalNum},#{totalMoney},#{higher},#{lower},#{sup},#{note}) 
+	</select>
+	
+	<!-- 删除物品 -->
+	<delete id="deleteItemsById" parameterType="java.lang.Integer">
+		delete from items where id=#{id}
+	</delete>
+</mapper> 
+

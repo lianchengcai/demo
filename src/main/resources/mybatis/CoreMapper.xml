@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="cn.edu.fjnu.dao.CoreDao">
+	
+	<sql id="date">
+		and date between '${dateBefore}' and '${dateAfter}'
+	</sql>
+	
+	<sql id="items_limit">
+		and totalNum>higher or lower>totalNum
+	</sql>
+	
+	<sql id="outstock_items">
+		and outstock.items=items.name
+	</sql>
+
+	<sql id="inquiry_items">
+		and inquiry.items=items.name
+	</sql>
+	
+	<!-- resultMap定义 -->
+	<!-- 根据日期查询领用部门、领用人、出库情况 -->
+	<resultMap type="cn.edu.fjnu.entity.Outstock" id="findDeptMap">
+		<id column="id" property="id"/>
+		<result column="dept" property="dept"/>
+		<result column="receiver" property="receiver"/>
+		<result column="type" property="type"/>
+		<result column="out_number" property="number"/>
+		<result column="sumNum" property="sumNum"/>
+		<result column="sumMoney" property="sumMoney"/>
+		<result column="note" property="note"/>
+		
+		<association property="itemsCustom" javaType="cn.edu.fjnu.entity.Items">
+			<id column="items" property="name"/>
+			<result column="number" property="number"/>
+			<result column="name" property="name"/>
+			<result column="model" property="model"/>
+			<result column="piece" property="piece"/>
+			<result column="price" property="price"/>
+		</association>
+	</resultMap>
+
+	<!-- 查询入库情况 -->
+	<resultMap type="cn.edu.fjnu.entity.Inquiry" id="findInquiryMap">
+		<id column="id" property="id"/>
+		<result column="type" property="type"/>
+		<result column="in_number" property="number"/>
+		<result column="sumNum" property="sumNum"/>
+		<result column="sumMoney" property="sumMoney"/>
+		<result column="note" property="note"/>
+		
+		<association property="itemsCustom" javaType="cn.edu.fjnu.entity.Items">
+			<id column="items" property="name"/>
+			<result column="number" property="number"/>
+			<result column="name" property="name"/>
+			<result column="model" property="model"/>
+			<result column="piece" property="piece"/>
+			<result column="price" property="price"/>
+		</association>
+	</resultMap>
+	
+	<!-- 商家供货 -->
+	<resultMap type="cn.edu.fjnu.entity.Supply" id="findSupplyMap">
+		<id column="id" property="id"/>
+		<result column="sup" property="sup"/>
+		<result column="supply_number" property="number"/>
+		<result column="sumNum" property="sumNum"/>
+		<result column="sumMoney" property="sumMoney"/>
+		<result column="note" property="note"/>
+		
+		<association property="itemsCustom" javaType="cn.edu.fjnu.entity.Items">
+			<id column="items" property="name"/>
+			<result column="number" property="number"/>
+			<result column="name" property="name"/>
+			<result column="model" property="model"/>
+			<result column="piece" property="piece"/>
+			<result column="price" property="price"/>
+		</association>
+	</resultMap>
+	<!-- 根据日期查询领用部门、领用人、出库情况 -->
+	<select id="findDeptByDate" parameterType="cn.edu.fjnu.entity.Outstock" resultMap="findDeptMap">
+		select outstock.*,items.* from outstock,items
+		<where>
+			<include refid="outstock_items"></include>
+			<include refid="date"></include>
+		</where>
+	</select>
+	
+	<!-- 根据日期查询入库情况 -->
+	<select id="findInquiryByDate" parameterType="cn.edu.fjnu.entity.Inquiry" resultMap="findInquiryMap">
+		select inquiry.*,items.* from inquiry,items
+		<where>
+			<include refid="inquiry_items"></include>
+			<include refid="date"></include>
+		</where>
+	</select>
+	
+	<!-- 超限库存 -->
+	<select id="findItemsByLimit" resultType="cn.edu.fjnu.entity.Items">
+		select * from items 
+		<where>
+			<include refid="items_limit"></include>
+		</where>
+	</select>
+	
+	<!-- 商家供货表 -->
+	<select id="findSupplyByDate" parameterType="cn.edu.fjnu.entity.Supply" resultMap="findSupplyMap">
+		select supply.*,items.* from supply,items
+		<where>
+			<include refid="date"></include>
+		</where>
+	</select>
+	
+	
+	
+	
+</mapper> 
+

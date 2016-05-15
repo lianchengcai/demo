@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="cn.edu.fjnu.dao.DeptDao">
+	
+	<!-- 查看部门 -->
+	<select id="findDept" resultType="cn.edu.fjnu.entity.Dept">
+		select * from dept
+	</select>
+	
+	<!-- 根据id查询部门 -->
+	<select id="findDeptById" parameterType="java.lang.Integer" resultType="cn.edu.fjnu.entity.Dept">
+		select * from dept where id=#{id}
+	</select>
+	
+	<!-- 添加部门 -->
+	<select id="addDept" parameterType="cn.edu.fjnu.entity.Dept">
+		insert into dept(deptNumber,deptName,note) values(#{deptNumber},#{deptName},#{note}) 
+	</select>
+	
+	<!-- 修改部门 -->
+	<update id="updateDeptById" parameterType="cn.edu.fjnu.entity.Dept">
+		update dept set deptNumber=#{deptNumber},deptName=#{deptName},note=#{note} where id=#{id}
+	</update>
+	
+	<!-- 删除部门 -->
+	<delete id="deleteDeptById" parameterType="java.lang.Integer">
+		delete from dept where id=#{id}
+	</delete>
+	
+	<!-- 根据部门名称查询部门员工 -->
+	<select id="findEmployeeByDeptName" parameterType="java.lang.String" resultType="cn.edu.fjnu.entity.Employee">
+		select * from employee where dept=#{dept}
+	</select>
+	
+	<!-- 查看所有员工信息 -->
+	<select id="findEmployee" resultType="cn.edu.fjnu.entity.Employee">
+		select * from employee
+	</select>
+	
+	<!-- 根据id查询员工信息 -->
+	<select id="findEmployeeById" parameterType="java.lang.Integer" resultType="cn.edu.fjnu.entity.Employee">
+		select * from employee where id=#{id}
+	</select>
+	
+	<!-- 修改员工 -->
+	<update id="updateEmployeeById" parameterType="cn.edu.fjnu.entity.Employee">
+		update employee set number=#{number},name=#{name},dept=#{dept},telephone=#{telephone},
+		email=#{email},sex=#{sex},job=#{job},note=#{note} where id=#{id}
+	</update>
+	
+	<!-- 添加员工 -->
+	<select id="addEmployee" parameterType="cn.edu.fjnu.entity.Employee">
+		insert into employee(number,name,dept,telephone,sex,job,note) 
+		values(#{number},#{name},#{dept},#{telephone},#{sex},#{job},#{note}) 
+	</select>
+	
+	<!-- 删除员工 -->
+	<delete id="deleteEmployeeById" parameterType="java.lang.Integer">
+		delete from employee where id=#{id}
+	</delete>
+</mapper> 
+

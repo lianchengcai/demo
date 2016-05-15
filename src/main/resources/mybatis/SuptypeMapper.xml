@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="cn.edu.fjnu.dao.SuptypeDao">
+	
+	<!-- 查看供应商类型 -->
+	<select id="findSuptype" resultType="cn.edu.fjnu.entity.Suptype">
+		select * from suptype
+	</select>
+	
+	<!-- 根据id查询供应商类型 -->
+	<select id="findSuptypeById" parameterType="java.lang.Integer" resultType="cn.edu.fjnu.entity.Suptype">
+		select * from suptype where id=#{id}
+	</select>
+	
+	<!-- 添加供应商类型 -->
+	<select id="addSuptype" parameterType="cn.edu.fjnu.entity.Suptype">
+		insert into suptype(suptypeNumber,suptypeName,note) values(#{suptypeNumber},#{suptypeName},#{note}) 
+	</select>
+	
+	<!-- 修改供应商类型 -->
+	<update id="updateSuptypeById" parameterType="cn.edu.fjnu.entity.Suptype">
+		update suptype set suptypeNumber=#{suptypeNumber},suptypeName=#{suptypeName},note=#{note} where id=#{id}
+	</update>
+	
+	<!-- 删除供应商类型 -->
+	<delete id="deleteSuptypeById" parameterType="java.lang.Integer">
+		delete from suptype where id=#{id}
+	</delete>
+	
+	<!-- 根据供应商类型查询供应商信息 -->
+	<select id="findSupplierBySuptype" parameterType="java.lang.String" resultType="cn.edu.fjnu.entity.Supplier">
+		select * from supplier where type=#{type}
+	</select>
+	
+	<!-- 查看所有供应商信息 -->
+	<select id="findSupplier" resultType="cn.edu.fjnu.entity.Supplier">
+		select * from supplier
+	</select>
+	
+	<!-- 根据id查询供应商信息 -->
+	<select id="findSupplierById" parameterType="java.lang.Integer" resultType="cn.edu.fjnu.entity.Supplier">
+		select * from supplier where id=#{id}
+	</select>
+	
+	<!-- 修改供应商 -->
+	<update id="updateSupplierById" parameterType="cn.edu.fjnu.entity.Supplier">
+		update supplier set number=#{number},fullName=#{fullName},simName=#{simName},
+		type=#{type},contact=#{contact},telephone=#{telephone},phone=#{phone},fax=#{fax},
+		post=#{post},address=#{address},note=#{note} where id=#{id}
+	</update>
+	
+	<!-- 添加供应商 -->
+	<select id="addSupplier" parameterType="cn.edu.fjnu.entity.Supplier">
+		insert into supplier(number,fullName,simName,type,contact,telephone,phone,fax,post,address,note) 
+		values(#{number},#{fullName},#{simName},#{type},#{contact},#{telephone},#{phone},#{fax},#{post},#{address},#{note}) 
+	</select>
+	
+	<!-- 删除供应商 -->
+	<delete id="deleteSupplierById" parameterType="java.lang.Integer">
+		delete from supplier where id=#{id}
+	</delete>
+</mapper> 
+
