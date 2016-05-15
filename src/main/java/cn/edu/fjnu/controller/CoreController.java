@@ -2,6 +2,7 @@ package cn.edu.fjnu.controller;
 
 import java.util.List;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +23,7 @@ import cn.edu.fjnu.validator.ValidGroup2;
 @Controller
 public class CoreController {
 
-	@Autowired
+	@Resource
 	private CoreService service;
 	
 	//查询领用部门、领用人、出库情况
