@@ -12,3 +12,428 @@
 19:41:44.993 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
 19:42:19.089 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
 19:43:32.039 [http-bio-8080-exec-6] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+20:21:20.693 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+20:21:20.789 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+20:21:20.833 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+20:21:20.834 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:28:54.717 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:28:54.780 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:28:54.809 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:28:54.810 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:29:27.084 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:29:33.770 [http-bio-8080-exec-10] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:31:04.969 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:31:05.020 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:31:05.088 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:31:05.090 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:31:37.806 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:31:37.853 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:31:37.886 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:31:37.887 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:31:42.167 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:31:42.867 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:32:21.954 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:32:21.994 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:32:22.033 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:32:22.034 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:33:02.328 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:33:02.358 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:33:02.403 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:33:02.404 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:33:21.645 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:33:21.672 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:33:21.714 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:33:21.715 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:33:28.049 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:33:28.482 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:34:03.779 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:34:03.814 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:34:03.856 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:34:03.857 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:34:10.967 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:34:11.387 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:34:46.003 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:34:46.048 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:34:46.078 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:34:46.079 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:34:53.740 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:34:54.190 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:35:13.812 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:35:13.866 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:35:13.909 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:35:13.909 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:35:16.345 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:35:16.830 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:36:06.176 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:36:06.221 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:36:06.264 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:36:06.265 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:36:09.599 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:36:10.086 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:36:30.003 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:36:30.046 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:36:30.082 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:36:30.084 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:36:52.994 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:36:53.024 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:36:53.067 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:36:53.068 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:36:56.656 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:36:57.078 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:37:38.763 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:37:38.801 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:37:38.839 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:37:38.842 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:37:41.880 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:37:42.334 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:39:33.789 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:39:33.838 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:39:33.882 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:39:33.883 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:42:34.885 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:42:34.930 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:42:34.972 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:42:34.973 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:42:44.922 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:42:45.458 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:44:32.144 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:44:32.178 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:44:32.226 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:44:32.227 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:44:33.993 [http-bio-8080-exec-2] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:44:34.588 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:46:56.011 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:46:56.064 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:46:56.117 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:46:56.120 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:47:19.147 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:47:19.186 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:47:19.217 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:47:19.218 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:48:01.967 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:48:01.990 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:48:02.016 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:48:02.016 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:48:14.637 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:48:14.661 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:48:14.687 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:48:14.688 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:50:55.638 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:50:55.682 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:50:55.719 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:50:55.720 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:51:17.387 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:51:17.439 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:51:17.485 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:51:17.486 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:51:30.234 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:51:30.284 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:51:30.329 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:51:30.332 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:51:43.452 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:52:36.122 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:52:36.158 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:52:36.197 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:52:36.197 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:52:37.000 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:53:50.017 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:53:50.053 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:53:50.089 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:53:50.090 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:53:57.627 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:53:58.791 [http-bio-8080-exec-6] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:54:36.074 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:54:36.124 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:54:36.160 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:54:36.161 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:54:42.326 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:54:45.124 [http-bio-8080-exec-7] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:55:36.529 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:55:36.576 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:55:36.607 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:55:36.608 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:55:40.052 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:55:45.989 [http-bio-8080-exec-7] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:57:40.762 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:57:40.803 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:57:40.842 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:57:40.843 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:57:47.677 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:57:55.898 [http-bio-8080-exec-7] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+21:59:22.432 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+21:59:22.471 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+21:59:22.509 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+21:59:22.510 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+21:59:22.893 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:59:22.893 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+21:59:26.065 [http-bio-8080-exec-8] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:05:47.321 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:05:47.353 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:05:47.381 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:05:47.382 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:05:54.451 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:05:54.503 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:05:54.555 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:05:54.558 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:05:59.387 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:05:59.387 [http-bio-8080-exec-4] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:06:10.433 [http-bio-8080-exec-8] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:06:38.429 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:06:38.471 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:06:38.512 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:06:38.513 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:06:39.315 [http-bio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:06:40.058 [http-bio-8080-exec-4] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:07:13.221 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:07:13.271 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:07:13.312 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:07:13.312 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:07:13.670 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:07:23.026 [http-bio-8080-exec-6] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:08:22.210 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:08:22.247 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:08:22.282 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:08:22.283 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:08:28.212 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:08:38.870 [http-bio-8080-exec-6] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:10:42.743 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:10:42.774 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:10:42.816 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:10:42.817 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:10:59.817 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:10:59.861 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:10:59.902 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:10:59.903 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:11:03.496 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:11:03.961 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:11:53.496 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:11:53.538 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:11:53.580 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:11:53.581 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:13:27.341 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:13:27.383 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:13:27.416 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:13:27.417 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:13:40.444 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:13:40.469 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:13:40.498 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:13:40.498 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:14:08.661 [main] INFO  o.a.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+22:14:08.958 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:14:09.065 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:14:09.114 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:14:09.116 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:14:09.941 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:14:45.592 [main] INFO  o.a.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+22:14:45.874 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:14:45.964 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:14:46.006 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:14:46.007 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:14:46.570 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:15:26.398 [main] INFO  o.a.shiro.realm.AuthorizingRealm - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+22:15:26.674 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:15:26.769 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:15:26.805 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:15:26.806 [main] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:15:27.437 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:16:03.941 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:16:03.983 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:16:04.020 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:16:04.022 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:16:04.405 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:16:14.568 [http-bio-8080-exec-6] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:17:47.809 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:17:47.852 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:17:47.892 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:17:47.894 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:17:48.415 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:17:59.715 [http-bio-8080-exec-5] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:21:31.965 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:21:31.998 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:21:32.032 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:21:32.033 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:24:55.744 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:24:55.787 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:24:55.820 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:24:55.821 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:26:13.205 [http-bio-8080-exec-12] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:26:13.708 [http-bio-8080-exec-12] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:26:29.142 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:26:29.183 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:26:29.220 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:26:29.221 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:26:31.797 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:26:38.346 [http-bio-8080-exec-6] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:27:55.279 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:27:55.323 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:27:55.366 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:27:55.367 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:27:58.200 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:28:02.607 [http-bio-8080-exec-8] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:30:27.357 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:30:27.392 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:30:27.441 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:30:27.441 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:30:32.827 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:30:38.548 [http-bio-8080-exec-9] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:46:35.116 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:46:35.154 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:46:35.201 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:46:35.202 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:47:10.380 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:47:16.110 [http-bio-8080-exec-9] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:49:29.730 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:49:29.779 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:49:29.819 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:49:29.820 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:49:34.991 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:49:44.181 [http-bio-8080-exec-10] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:50:04.107 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:50:04.167 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:50:04.209 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:50:04.210 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:50:04.678 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:50:16.634 [http-bio-8080-exec-6] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:50:34.499 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:50:34.545 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:50:34.587 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:50:34.588 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:50:35.038 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:50:35.038 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:50:42.645 [http-bio-8080-exec-8] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:50:57.032 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:50:57.104 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:50:57.152 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:50:57.152 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+22:50:57.640 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:50:57.640 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+22:51:08.773 [http-bio-8080-exec-7] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+22:57:31.661 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+22:57:31.688 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+22:57:31.717 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+22:57:31.718 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:02:01.662 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:02:01.702 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:02:01.739 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:02:01.740 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:02:07.787 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:02:10.381 [http-bio-8080-exec-5] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:03:18.715 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:03:18.784 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:03:18.855 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:03:18.858 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:03:19.320 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:03:25.309 [http-bio-8080-exec-7] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:04:03.148 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:04:03.176 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:04:03.201 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:04:03.201 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:04:08.717 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:04:08.754 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:04:08.780 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:04:08.781 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:15:35.113 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:15:35.148 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:15:35.183 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:15:35.184 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:15:38.994 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:15:44.500 [http-bio-8080-exec-7] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:16:28.680 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:16:28.710 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:16:28.736 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:16:28.736 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:16:33.916 [http-bio-8080-exec-8] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:16:48.682 [http-bio-8080-exec-12] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:18:02.304 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:18:02.344 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:18:02.380 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:18:02.384 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:18:15.495 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:18:15.530 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:18:15.581 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:18:15.582 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:18:48.080 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:18:48.105 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:18:48.133 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:18:48.134 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:19:10.706 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:19:10.740 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:19:10.773 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:19:10.774 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:21:43.453 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:21:43.478 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:21:43.508 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:21:43.511 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:22:06.146 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:22:06.173 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:22:06.197 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:22:06.198 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:23:28.682 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:23:28.707 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:23:28.730 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:23:28.730 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:24:01.285 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:24:01.318 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:24:01.345 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:24:01.347 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:24:13.866 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:24:13.890 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:24:13.920 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:24:13.921 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:24:21.015 [http-bio-8080-exec-20] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:24:25.436 [http-bio-8080-exec-5] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:25:16.482 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:25:16.513 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:25:16.542 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:25:16.543 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:25:29.314 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:25:29.340 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:25:29.368 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:25:29.369 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:25:40.396 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:25:40.445 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:25:40.479 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:25:40.481 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:25:45.712 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:25:53.823 [http-bio-8080-exec-9] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:26:44.162 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:26:44.242 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:26:44.279 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:26:44.280 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:26:57.858 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:26:57.898 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:26:57.936 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:26:57.937 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:27:30.850 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:27:30.875 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:27:30.904 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:27:30.904 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:27:52.563 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:27:52.602 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:27:52.638 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:27:52.639 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:28:23.407 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:28:30.536 [http-bio-8080-exec-10] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:29:03.791 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:29:03.828 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:29:03.864 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:29:03.864 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:29:23.312 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:29:23.366 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:29:23.417 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:29:23.418 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:29:23.891 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:29:23.891 [http-bio-8080-exec-2] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:29:32.327 [http-bio-8080-exec-10] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:41:46.866 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:41:46.920 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:41:46.962 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:41:46.963 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:41:53.147 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:41:53.947 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+23:44:23.668 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+23:44:23.721 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+23:44:23.758 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+23:44:23.759 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+23:44:27.726 [http-bio-8080-exec-3] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
+23:44:28.414 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...

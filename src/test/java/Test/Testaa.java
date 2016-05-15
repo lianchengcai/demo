@@ -1,10 +1,8 @@
 package Test;
 
 import java.util.Date;
-import java.util.List;
 
 import javax.annotation.Resource;
-import javax.print.attribute.standard.Severity;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,10 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.web.WebAppConfiguration;
 
-import cn.edu.fjnu.dao.CoreDao;
 import cn.edu.fjnu.dao.DeptDao;
+import cn.edu.fjnu.dao.IManagerDao;
 import cn.edu.fjnu.dao.IntypeDao;
 import cn.edu.fjnu.dao.ItemsortDao;
 import cn.edu.fjnu.dao.OuttypeDao;
@@ -26,17 +23,17 @@ import cn.edu.fjnu.entity.Inquiry;
 import cn.edu.fjnu.entity.Intype;
 import cn.edu.fjnu.entity.Items;
 import cn.edu.fjnu.entity.Itemsort;
+import cn.edu.fjnu.entity.Manager;
 import cn.edu.fjnu.entity.Outstock;
 import cn.edu.fjnu.entity.Outtype;
 import cn.edu.fjnu.entity.PageResult;
 import cn.edu.fjnu.entity.Supplier;
-import cn.edu.fjnu.entity.Supply;
 import cn.edu.fjnu.entity.Suptype;
 import cn.edu.fjnu.service.ItemsortService;
 import junit.framework.TestCase;
 @RunWith(SpringJUnit4ClassRunner.class)
 //@WebAppConfiguration
-@ContextConfiguration(locations={"classpath*:springmvc.xml","classpath*:applicationContext.xml"})
+@ContextConfiguration(locations={"classpath*:springmvc.xml","classpath*:applicationContext.xml","classpath*:applicationContext-shiro.xml"})
 @ActiveProfiles("production")
 public class Testaa extends TestCase {
 	
@@ -57,6 +54,9 @@ public class Testaa extends TestCase {
 	
 	@Autowired
 	private ItemsortService service;
+	
+	@Resource
+	private IManagerDao managerDao;
 
 	
 	@Test
@@ -225,6 +225,12 @@ public class Testaa extends TestCase {
 			outstock.setNote("出库备注");
 			outtypeDao.addOutstock(outstock);
 		}
+	}
+	
+	@Test
+	public void testAddOut1stock() throws Exception{
+		Manager aa = managerDao.getManagerById("110");
+		System.out.println(aa);
 	}
 	
 

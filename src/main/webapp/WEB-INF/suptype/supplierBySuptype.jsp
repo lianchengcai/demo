@@ -35,9 +35,9 @@
 	<!-- 分页 -->
 	<center>
 		第${pageList.pageNo }/共${pageList.pages }页
-		<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?pageNo=1">首页</a>
+		<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?name=${name }">首页</a>
 		<c:if test="${pageList.pageNo>1 }">
-			<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?pageNo=${pageList.pageNo-1 }">上一页</a>
+			<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?name=${name }&pageNo=${pageList.pageNo-1 }">上一页</a>
 		</c:if>
 		<!-- 计算begin，end -->
 		<c:choose>
@@ -78,16 +78,16 @@
 					[${i }]
 				</c:when>
 				<c:otherwise>
-					<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?pageNo=${i }">[${i }]</a>
+					<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?name=${name }&pageNo=${i }">[${i }]</a>
 				</c:otherwise>
 			</c:choose>
 		</c:forEach>
 		
 		<c:if test="${pageList.pageNo<pageList.pages }">
-			<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?pageNo=${pageList.pageNo+1 }">下一页</a>
+			<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?name=${name }&pageNo=${pageList.pageNo+1 }">下一页</a>
 		</c:if>
 	
-		<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?pageNo=${pageList.pages }">尾页</a>		
+		<a href="${pageContext.request.contextPath }/findSupplierBySuptype.action?name=${name }&pageNo=${pageList.pages }">尾页</a>		
 	</center> 
 </form>
 </body>

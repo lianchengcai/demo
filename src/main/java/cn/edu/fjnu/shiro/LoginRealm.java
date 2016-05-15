@@ -1,6 +1,9 @@
 package cn.edu.fjnu.shiro;
 
 
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.annotation.Resource;
 
 
@@ -39,11 +42,12 @@ public class LoginRealm extends AuthorizingRealm {
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(
 			AuthenticationToken token) throws AuthenticationException {
-		System.out.println("我进来了staff认证。。。。。。");
+		System.out.println("我进来了manager认证。。。。。。");
 		String id = (String) token.getPrincipal();
+		System.out.println(id);
 		if(id==null)return null;
-		
 		Manager manager = managerDao.getManagerById(id);
+		System.out.println(manager.toString()+1);
 		if(manager==null)return null;
 		
 		String password = manager.getMd5Password();
@@ -77,17 +81,15 @@ public class LoginRealm extends AuthorizingRealm {
 			
 		//添加登录授权的身份
 		SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
-//		StaffRoleEnum[] allStaffRole = StaffRoleEnum.values();
-//		String role =null;
-//		for (StaffRoleEnum staffRole : allStaffRole) {
-//			if(staffRole.getIntValue()==staff.getRole()){
-//				role = staffRole.name();
-//				System.out.println(role);
-//				break;
-//			}
-//		}
+
+		Set<String> permissions = new HashSet<String>();
+		String[] StringPermission = manager.getPermission().split("-");
+		for(int i=0;i<StringPermission.length;i++){
+			permissions.add(StringPermission[i]);
+		}
 		
-		simpleAuthorizationInfo.addStringPermission("1");
+		simpleAuthorizationInfo.addStringPermissions(permissions);
+//		simpleAuthorizationInfo.addStringPermission("1");
 		System.out.println("结束授权认证");
 		return simpleAuthorizationInfo;
 

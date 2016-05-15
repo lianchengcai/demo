@@ -84,6 +84,7 @@ public class SuptypeController {
 		}
 		PageResult<Supplier> pageList=service.findSupplierBySuptype(name, pageNo, 10);
 		request.setAttribute("pageList", pageList);
+		request.setAttribute("name", name);
 		List<Supplier> supplierList=pageList.getDataList();
 		request.setAttribute("supplierList", supplierList);
 		return "suptype/supplierBySuptype";

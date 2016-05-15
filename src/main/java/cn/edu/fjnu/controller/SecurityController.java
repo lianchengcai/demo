@@ -32,7 +32,7 @@ public class SecurityController {
 	public LoginRealm loginRealm;
 	
 	
-	@RequestMapping("login.do")
+	@RequestMapping("login")
 	public String Shriologin (HttpServletRequest request) throws Exception{
 
 		System.out.println("我进入登录的方法了");
@@ -69,45 +69,60 @@ public class SecurityController {
 		}
 		//此方法不处理登录成功
 		//失败返回登录页面
-		return "login";
+		return "base/login";
 	}
 	
-
-	@RequestMapping("pcLogin.do")
-	public String pcLogin(){
-		return "login";
-	}
-	
-	@RequestMapping("staffUrl.do")
-	public String staffUrl(){
-		
-		return "staffUrl";
-	}
-	
-	@RequestMapping("superMangerUrl.do")
-	public String superMangerUrl(){
-		return "superManger";
-	}
-	
-	@RequestMapping("mangerUrl.do")
-	public String mangerUrl(){
-		return "manager";
-	}
-	
-	@RequestMapping("test.do")
-	@RequiresPermissions("1")
-	public String test(){
-		return "staffUrl";
-	}
-	
-	@RequestMapping("CustomerUrl.do")
-	public String customerJsp(){
-		return "customerJsp";
-	}
-	
-	@RequestMapping("kick.do")
+	//踢人
+	@RequestMapping("kick")
 	public String kick(){
 		return "kick";
+	}
+	
+	
+	@RequestMapping("dept")
+	public String dept(){
+		return "base/dept";
+	}
+	@RequestMapping("intype")
+	public String intype(){
+		return "base/intype";
+	}
+	@RequestMapping("itemsort")
+	public String itemsort(){
+		return "base/itemsort";
+	}
+	@RequestMapping("outtype")
+	public String outtype(){
+		return "base/outtype";
+	}
+	@RequestMapping("right_down")
+	public String right_down(){
+		return "base/right_down";
+	}
+	@RequestMapping("top")
+	public String top(){
+		return "base/top";
+	}
+	@RequestMapping("suptype")
+	public String suptype(){
+		return "base/suptype";
+	}
+	@RequestMapping("main")
+	public String main(){
+		return "base/main";
+	}
+	@RequestMapping("right_top")
+	public String right_top(){
+		return "base/right_top";
+	}
+	
+	@RequestMapping("left")
+	public String left(){
+		return "base/left";
+	}
+	@RequestMapping("manager")
+	public String manager(){
+		return "base/manager";
 	}
 	
 	

@@ -17,7 +17,8 @@
 
 </head>
 <body>
-<form action="${pageContext.request.contextPath }/jsp/main.jsp">
+
+<form action="${pageContext.request.contextPath }/SecurityVerification/login.action" method="post">
 	<table align="center" border=1>
 		<tr>
 			<td>用户名：</td>

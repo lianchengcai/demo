@@ -8,5 +8,6 @@ import cn.edu.fjnu.entity.Manager;
 public interface IManagerDao {
 
 	Manager getManagerById(String id);
+	
 
 }

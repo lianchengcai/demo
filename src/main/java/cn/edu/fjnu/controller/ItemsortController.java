@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -21,6 +22,7 @@ import cn.edu.fjnu.service.ItemsortService;
 import cn.edu.fjnu.validator.ValidGroup3;
 
 @Controller
+
 public class ItemsortController {
 	
 	@Autowired
@@ -28,6 +30,7 @@ public class ItemsortController {
 	
 	//查看物品类型
 	@RequestMapping("findItemsort")
+	@RequiresPermissions("2")
 	public String findItemsort(HttpServletRequest request,Integer pageNo) throws Exception{
 		PageResult<Itemsort> pageList = service.findItemsort(pageNo,10);
 		request.setAttribute("pageList", pageList);

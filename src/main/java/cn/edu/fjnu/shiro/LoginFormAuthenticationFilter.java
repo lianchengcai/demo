@@ -26,16 +26,8 @@ import cn.edu.fjnu.entity.Manager;
  */
 public class LoginFormAuthenticationFilter extends FormAuthenticationFilter {
 	
-	public static final String StaffUrl = "/SecurityVerification/staffUrl.do";
-	public static final String SuerpMangerUrl = "/SecurityVerification/superMangerUrl.do";
-	public static final String MangerUrl = "/SecurityVerification/mangerUrl.do";
-	
-	public static final String StaffJsp = "staffUrl";
-	public static final String SuerpMangerJsp = "superManger";
-	public static final String MangerJsp = "manger";
-	
-	public static final String CustomerUrl = "/SecurityVerification/CustomerUrl.do";
-	
+	public static final String MainUrl = "/SecurityVerification/main.action";
+
 	@Resource
 	private IManagerDao managerDao;
 
@@ -81,7 +73,8 @@ public class LoginFormAuthenticationFilter extends FormAuthenticationFilter {
 				return true;
 			}
 			//将登录信息保存在Session中
-			WebUtils.issueRedirect(request, response,StaffUrl);
+			httpServletRequest.getSession().setAttribute("manager", manager);
+			WebUtils.issueRedirect(request, response,MainUrl);
 			
 			}
 		return false;
