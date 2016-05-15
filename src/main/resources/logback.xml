@@ -14,7 +14,7 @@
             <onMismatch>DENY </onMismatch>
         </filter>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>export/data/logs/debug.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <FileNamePattern>D:/JAVA/eclipse/demo/export/data/logs/debug.%d{yyyy-MM-dd}.log</FileNamePattern>
             <MaxHistory>30</MaxHistory>
         </rollingPolicy>
         <encoder>
@@ -30,7 +30,7 @@
             <onMismatch>DENY </onMismatch>
         </filter>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>/export/data/logs/info.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <FileNamePattern>D:/JAVA/eclipse/demo/export/data/logs/info.%d{yyyy-MM-dd}.log</FileNamePattern>
             <MaxHistory>30</MaxHistory>
         </rollingPolicy>
         <encoder>
@@ -46,7 +46,7 @@
             <onMismatch>DENY </onMismatch>
         </filter>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>/export/data/logs/error.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <FileNamePattern>D:/JAVA/eclipse/demo/export/data/logs/error.%d{yyyy-MM-dd}.log</FileNamePattern>
             <MaxHistory>30</MaxHistory>
         </rollingPolicy>
         <encoder>

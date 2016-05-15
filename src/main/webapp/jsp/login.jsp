@@ -5,6 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<script type="text/javascript">
+
+	function changeImg(){
+	    document.getElementById("randomcode_img").src="http://localhost:8080/demo/validatecode.jsp?t="+Math.random();
+
+	}
+	
+
+</SCRIPT>
+
 </head>
 <body>
 <form action="${pageContext.request.contextPath }/jsp/main.jsp">
@@ -17,6 +27,14 @@
 			<td>密码：<td>
 			<input type="password" name="password"/></td>
 		</tr>
+		
+		<tr>
+			<td>验证码：<td>
+			<input id="randomcode" name="randomcode" size="8" />
+			<img id="randomcode_img" alt="absMiddle" src="http://localhost:8080/demo/validatecode.jsp" onclick="changeImg()">
+			</td>
+		</tr>
+
 		<tr>
 			<td colspan="2" align="center"><input type="submit" value="登录"/></td>
 		</tr>

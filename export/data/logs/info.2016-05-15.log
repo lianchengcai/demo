@@ -1,0 +1,14 @@
+19:40:04.651 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+19:40:04.695 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+19:40:04.748 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+19:40:04.752 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+19:40:29.253 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+19:40:29.299 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+19:40:29.336 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+19:40:29.336 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+19:41:44.894 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'cn.edu.fjnu.shiro.LoginRealm.authorizationCache' does not yet exist.  Creating now.
+19:41:44.946 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [cn.edu.fjnu.shiro.LoginRealm.authorizationCache]
+19:41:44.992 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Cache with name 'shiro-kickout-session' does not yet exist.  Creating now.
+19:41:44.993 [localhost-startStop-1] INFO  o.a.s.cache.ehcache.EhCacheManager - Added EhCache named [shiro-kickout-session]
+19:42:19.089 [http-bio-8080-exec-3] INFO  o.a.s.s.m.AbstractValidatingSessionManager - Enabling session validation scheduler...
+19:43:32.039 [http-bio-8080-exec-6] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 4.3.0.Final
