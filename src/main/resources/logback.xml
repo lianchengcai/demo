@@ -54,6 +54,45 @@
         </encoder>
     </appender>
     
+
+    <!-- 时间滚动输出 login为 INFO 日志 -->
+    <appender name="login-info" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY </onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>D:/JAVA/eclipse/demo/export/data/logs/login.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+	 <logger name="cn.edu.fjnu.shiro" level="INFO">  
+	     <appender-ref ref="login-info" />
+	 </logger>
+	 
+	 <!-- 时间滚动输出 login为 INFO 日志 -->
+    <appender name="operate-info" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY </onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>D:/JAVA/eclipse/demo/export/data/logs/operate.%d{yyyy-MM-dd}.log</FileNamePattern>
+            <MaxHistory>30</MaxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%date{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+	 <logger name="cn.edu.fjnu.controller" level="INFO">  
+	     <appender-ref ref="operate-info" />
+	 </logger>
+    
     <!-- 很多人使用Mybatis的时候，控制台不能输出SQL语句，造成调试困难。只需要让DAO层的日志级别调整为DEBUG就可以了 -->
     <logger name="cn.edu.fjnu.*" level="DEBUG" />
 

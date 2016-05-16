@@ -93,6 +93,12 @@ public class Items {
 	public void setNote(String note) {
 		this.note = note;
 	}
+	@Override
+	public String toString() {
+		return "Items [id=" + id + ", number=" + number + ", name=" + name + ", sort=" + sort + ", model=" + model
+				+ ", piece=" + piece + ", price=" + price + ", totalNum=" + totalNum + ", totalMoney=" + totalMoney
+				+ ", higher=" + higher + ", lower=" + lower + ", sup=" + sup + ", note=" + note + "]";
+	}
 	
 	
 	

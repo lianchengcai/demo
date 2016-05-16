@@ -1,4 +1,4 @@
-package cn.edu.fjnu.controller;
+package cn.edu.fjnu.shiro;
 
 
 
@@ -11,12 +11,14 @@ import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.subject.Subject;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.servlet.ModelAndView;
 
+import ch.qos.logback.classic.Logger;
 import cn.edu.fjnu.shiro.LoginRealm;
 
 
@@ -31,28 +33,17 @@ public class SecurityController {
 	@Resource
 	public LoginRealm loginRealm;
 	
+	private static Logger log=(Logger) LoggerFactory.getLogger(SecurityController.class);
 	
 	@RequestMapping("login")
 	public String Shriologin (HttpServletRequest request) throws Exception{
 
 		System.out.println("我进入登录的方法了");
-		//取得登录的用户信息。如果已经登录跳到对应的首页
-//		Staff staff = (Staff)request.getSession().getAttribute("staff");
-//		System.out.println(staff);
-//		if(staff!=null){
-//			if(staff.getRole()=="1"){
-//				return LoginFormAuthenticationFilter.StaffJsp;
-//			}
-//			if(staff.getRole()=="2"){
-//				return LoginFormAuthenticationFilter.MangerJsp;
-//			}
-//			if(staff.getRole()=="3"){
-//				return LoginFormAuthenticationFilter.SuerpMangerJsp;
-//			}
-//		}
 		String exceptionClassName = (String) request.getAttribute("shiroLoginFailure");
+		if(exceptionClassName!=null){
+			log.info("尝试登录失败。失败类型："+exceptionClassName);
+		}
 //		System.out.println("错误类型："+exceptionClassName);
-//		System.out.println(request.getAttribute("username"));
 		if(exceptionClassName!=null){
 			if(UnknownAccountException.class.getName().equals(exceptionClassName)
 					||IncorrectCredentialsException.class.getName().equals(exceptionClassName)||

@@ -113,6 +113,13 @@ public class Employee {
 	public void setNote(String note) {
 		this.note = note;
 	}
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", number=" + number + ", name=" + name + ", dept=" + dept + ", cardID=" + cardID
+				+ ", telephone=" + telephone + ", phone=" + phone + ", email=" + email + ", sex=" + sex
+				+ ", birthplace=" + birthplace + ", address=" + address + ", birthday=" + birthday + ", school="
+				+ school + ", degree=" + degree + ", job=" + job + ", note=" + note + "]";
+	}
 	
 	
 	

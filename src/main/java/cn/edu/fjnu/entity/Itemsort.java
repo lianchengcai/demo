@@ -29,6 +29,11 @@ public class Itemsort {
 	public void setNote(String note) {
 		this.note = note;
 	}
+	@Override
+	public String toString() {
+		return "Itemsort [id=" + id + ", itemsortNumber=" + itemsortNumber + ", itemsortName=" + itemsortName
+				+ ", note=" + note + "]";
+	}
 	
 	
 }

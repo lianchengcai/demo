@@ -2,6 +2,7 @@ package cn.edu.fjnu.entity;
 
 public class Manager {
 	private String id;
+	private String name;
 	private String md5Password;
 	private String	salt;
 	private String permission;
@@ -43,9 +44,16 @@ public class Manager {
 	public void setState(int state) {
 		this.state = state;
 	}
-	public Manager(String id, String md5Password, String salt, String permission, int role, int state) {
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Manager(String id, String name, String md5Password, String salt, String permission, int role, int state) {
 		super();
 		this.id = id;
+		this.name = name;
 		this.md5Password = md5Password;
 		this.salt = salt;
 		this.permission = permission;
@@ -58,8 +66,9 @@ public class Manager {
 	}
 	@Override
 	public String toString() {
-		return "Manager [id=" + id + ", md5Password=" + md5Password + ", salt=" + salt + ", permission=" + permission
-				+ ", role=" + role + ", state=" + state + "]";
+		return "Manager [id=" + id + ", name=" + name + ", md5Password=" + md5Password + ", salt=" + salt
+				+ ", permission=" + permission + ", role=" + role + ", state=" + state + "]";
 	}
+
 	
 }

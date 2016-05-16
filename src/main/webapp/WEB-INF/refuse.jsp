@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<center><font color="greed"><h1>success!</h1></font></center>
+<center><h1><font color="red">您没有访问权限！</font></h1></center>
 </body>
 </html>

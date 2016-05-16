@@ -29,5 +29,10 @@ public class Intype {
 	public void setNote(String note) {
 		this.note = note;
 	}
+	@Override
+	public String toString() {
+		return "Intype [id=" + id + ", intypeNumber=" + intypeNumber + ", intypeName=" + intypeName + ", note=" + note
+				+ "]";
+	}
 	
 }

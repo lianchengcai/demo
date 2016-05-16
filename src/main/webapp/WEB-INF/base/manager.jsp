@@ -9,7 +9,7 @@
 <body>
 <center>
 	<a href="${pageContext.request.contextPath }/findManager.action" target="right_down">查看管理人员</a>&nbsp;&nbsp;
-	<a href="${pageContext.request.contextPath }/addDept.action" target="right_down">添加管理人员</a>&nbsp;&nbsp;
+	<a href="${pageContext.request.contextPath }/addManager.action" target="right_down">添加管理人员</a>&nbsp;&nbsp;
 </center>
 </body>
 </html>

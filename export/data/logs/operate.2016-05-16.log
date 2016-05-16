@@ -1,0 +1,138 @@
+13:07:36.840 [http-bio-8080-exec-2] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:08:29.689 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:08:31.472 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:08:48.138 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:08:53.175 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:08:54.391 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:08:55.447 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:23:47.547 [http-bio-8080-exec-3] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询出库情况
+13:23:49.413 [http-bio-8080-exec-3] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用人
+13:23:50.669 [http-bio-8080-exec-10] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:24:05.757 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询领用部门、领用人、出库情况
+13:33:02.638 [http-bio-8080-exec-4] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+13:33:26.340 [http-bio-8080-exec-1] INFO  c.edu.fjnu.controller.DeptController - 账号：110修改部门
+13:36:26.652 [http-bio-8080-exec-1] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+13:36:32.100 [http-bio-8080-exec-1] INFO  c.edu.fjnu.controller.DeptController - 账号：110将部门ID为：8的信息修改cn.edu.fjnu.entity.Dept@52a64d29
+13:37:15.909 [http-bio-8080-exec-11] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+13:37:24.402 [http-bio-8080-exec-12] INFO  c.edu.fjnu.controller.DeptController - 账号：110将部门ID为：8的信息修改Dept [id=8, deptNumber=deptNumber_1, deptName=销售部_1, note=部门备注]
+13:39:27.362 [http-bio-8080-exec-5] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+13:39:31.567 [http-bio-8080-exec-5] INFO  c.edu.fjnu.controller.DeptController - 账号：110将部门ID为：8的信息修改为：Dept [id=8, deptNumber=deptNumber_1, deptName=销售部_1, note=部门备注aa]修改前的信息为：Dept [id=8, deptNumber=deptNumber_1, deptName=销售部_1, note=部门备注]
+13:46:32.992 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+13:46:45.460 [http-bio-8080-exec-3] INFO  c.edu.fjnu.controller.DeptController - 账号：110增加员工。增加的员工信息为：Employee [id=0, number=ads, name=asdf, dept=asdf, cardID=null, telephone=aa, phone=null, email=null, sex=, birthplace=null, address=null, birthday=null, school=null, degree=null, job=, note=]
+13:57:14.886 [http-bio-8080-exec-5] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+13:57:17.140 [http-bio-8080-exec-5] INFO  c.edu.fjnu.controller.DeptController - 账号：110增加部门。增加的部门信息为：Dept [id=0, deptNumber=, deptName=, note=]
+13:57:47.944 [http-bio-8080-exec-9] INFO  c.edu.fjnu.controller.DeptController - 账号：110增加员工。增加的员工信息为：Employee [id=0, number=asd, name=adsf, dept=adsf, cardID=null, telephone=adsf, phone=null, email=null, sex=asdf, birthplace=null, address=null, birthday=null, school=null, degree=null, job=adsf, note=asdf]
+13:58:18.792 [http-bio-8080-exec-2] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+13:59:17.495 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110将部门ID为：9的信息修改为：Dept [id=9, deptNumber=deptNumber_2, deptName=销售部_2, note=部门备注aa]。修改前的信息为：Dept [id=9, deptNumber=deptNumber_2, deptName=销售部_2, note=部门备注]
+14:35:03.209 [http-bio-8080-exec-6] INFO  c.e.fjnu.controller.IntypeController - 账号：110查看入库类型
+14:35:08.533 [http-bio-8080-exec-8] INFO  c.e.fjnu.controller.IntypeController - 账号：110修改入库类型。修改前：Intype [id=14, intypeNumber=intypeNumber_2, intypeName=盒装入库_2, note=入库类型备注];修改后：Intype [id=14, intypeNumber=intypeNumber_2, intypeName=盒装入库_2, note=入库类型备注aa]
+14:35:11.469 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+14:36:15.045 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+14:36:18.698 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+14:36:20.149 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+14:36:22.235 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110删除部门。删除的部门信息为：Dept [id=332, deptNumber=, deptName=, note=]
+14:36:23.844 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+14:36:24.717 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+14:36:29.534 [http-bio-8080-exec-6] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+14:36:33.309 [http-bio-8080-exec-2] INFO  c.edu.fjnu.controller.DeptController - 账号：110将部门ID为：8的信息修改为：Dept [id=8, deptNumber=deptNumber_1, deptName=销售部_1, note=部门备注]。修改前的信息为：Dept [id=8, deptNumber=deptNumber_1, deptName=销售部_1, note=部门备注aa]
+14:36:38.790 [http-bio-8080-exec-2] INFO  c.edu.fjnu.controller.DeptController - 账号：110增加部门。增加的部门信息为：Dept [id=0, deptNumber=A, deptName=A, note=asdf]
+14:36:39.837 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+14:36:42.220 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+14:36:43.839 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110删除部门。删除的部门信息为：Dept [id=333, deptNumber=A, deptName=A, note=asdf]
+14:36:45.086 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:36:52.043 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110将员工ID为：11的信息修改为：Employee [id=11, number=empNumber_1, name=empName_1, dept=销售部_1, cardID=null, telephone=1388888888, phone=null, email=null, sex=女, birthplace=null, address=null, birthday=null, school=null, degree=null, job=java程序员, note=员工1]。修改前的信息为：Employee [id=11, number=empNumber_1, name=empName_1, dept=销售部_1, cardID=null, telephone=1388888888, phone=null, email=null, sex=女, birthplace=null, address=null, birthday=null, school=null, degree=null, job=java程序员, note=员工]
+14:36:53.459 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:36:56.709 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:36:58.599 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110删除员工。删除的员工信息为Employee [id=382, number=asd, name=adsf, dept=adsf, cardID=null, telephone=adsf, phone=null, email=null, sex=asdf, birthplace=null, address=null, birthday=null, school=null, degree=null, job=adsf, note=asdf]
+14:37:00.332 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:37:01.276 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:37:02.286 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110删除员工。删除的员工信息为Employee [id=381, number=ads, name=asdf, dept=asdf, cardID=null, telephone=aa, phone=null, email=null, sex=, birthplace=null, address=null, birthday=null, school=null, degree=null, job=, note=]
+14:37:03.222 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:37:04.124 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:37:10.070 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110增加员工。增加的员工信息为：Employee [id=0, number=aSDF, name=, dept=, cardID=null, telephone=, phone=null, email=null, sex=, birthplace=null, address=null, birthday=null, school=null, degree=null, job=, note=]
+14:37:10.851 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:37:11.772 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+14:37:12.862 [http-bio-8080-exec-7] INFO  c.edu.fjnu.controller.DeptController - 账号：110删除员工。删除的员工信息为Employee [id=383, number=aSDF, name=, dept=, cardID=null, telephone=, phone=null, email=null, sex=, birthplace=null, address=null, birthday=null, school=null, degree=null, job=, note=]
+14:37:20.505 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+14:37:24.893 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110修改物品类型。修改前：Itemsort [id=766, itemsortNumber=itemsort_1, itemsortName=电子产品, note=物品类型备注]修改后：Itemsort [id=766, itemsortNumber=itemsort_1, itemsortName=电子产品, note=物品类型备注A]
+14:37:25.948 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+14:37:33.981 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110增加物品类型。增加的信息为：Itemsort [id=0, itemsortNumber=AF, itemsortName=, note=]
+14:37:35.597 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+14:37:36.565 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+14:37:38.798 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110删除物品类型。删除的信息：Itemsort [id=1270, itemsortNumber=AF, itemsortName=, note=]
+14:37:40.779 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110查看所有物品信息
+14:37:46.470 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110修改物品。修改前：Items [id=1792, number=items_1, name=苹果手机_1, sort=电子产品, model=6sPlus, piece=台, price=5250.0, totalNum=5, totalMoney=26250.0, higher=30, lower=10, sup=苹果公司, note=苹果6sPlus手机]修改后：Items [id=1792, number=items_1, name=苹果手机_1, sort=电子产品, model=6sPlus, piece=台, price=5250.0, totalNum=5, totalMoney=26250.0, higher=0, lower=0, sup=null, note=苹果6sPlus手机A]
+14:37:47.507 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110查看所有物品信息
+14:37:50.781 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110查看所有物品信息
+14:37:51.925 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110删除物品。Items [id=2332, number=items_332, name=苹果手机_332, sort=电子产品, model=6sPlus, piece=台, price=5250.0, totalNum=15, totalMoney=78750.0, higher=30, lower=10, sup=苹果公司, note=苹果6sPlus手机]
+14:37:53.196 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110查看所有物品信息
+14:37:56.289 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110增加物品。Items [id=0, number=F, name=, sort=, model=, piece=, price=0.0, totalNum=0, totalMoney=0.0, higher=0, lower=0, sup=null, note=]
+14:37:57.788 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110查看所有物品信息
+14:37:59.021 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110查看所有物品信息
+14:38:00.255 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110删除物品。Items [id=2333, number=F, name=, sort=, model=, piece=, price=0.0, totalNum=0, totalMoney=0.0, higher=0, lower=0, sup=null, note=]
+14:38:01.902 [http-bio-8080-exec-5] INFO  c.edu.fjnu.controller.CoreController - 账号：110查询超限
+14:38:32.438 [http-bio-8080-exec-2] INFO  c.e.f.controller.OuttypeController - 账号：110查看出库类型
+14:38:34.619 [http-bio-8080-exec-2] INFO  c.e.f.controller.OuttypeController - 账号：110查看出库类型
+14:38:37.798 [http-bio-8080-exec-2] INFO  c.e.f.controller.OuttypeController - 账号：110修改出库类型。修改前：Outtype [id=13, outtypeNumber=outtypeNumber_1, outtypeName=搬运出库_1, note=出库类型备注]修改后：Outtype [id=13, outtypeNumber=outtypeNumber_1, outtypeName=搬运出库_1A, note=出库类型备注]
+14:38:38.915 [http-bio-8080-exec-1] INFO  c.e.f.controller.OuttypeController - 账号：110查看出库类型
+14:38:40.845 [http-bio-8080-exec-1] INFO  c.e.f.controller.OuttypeController - 账号：110查看出库类型
+14:38:41.814 [http-bio-8080-exec-1] INFO  c.e.f.controller.OuttypeController - 账号：110删除出库类型：Outtype [id=510, outtypeNumber=outtypeNumber_249, outtypeName=搬运出库_249, note=出库类型备注]
+14:38:45.016 [http-bio-8080-exec-5] INFO  c.e.f.controller.OuttypeController - 账号：110增加出库类型:Outtype [id=0, outtypeNumber=A, outtypeName=, note=]
+14:38:45.684 [http-bio-8080-exec-5] INFO  c.e.f.controller.OuttypeController - 账号：110查看出库类型
+14:38:46.444 [http-bio-8080-exec-5] INFO  c.e.f.controller.OuttypeController - 账号：110查看出库类型
+14:38:47.657 [http-bio-8080-exec-5] INFO  c.e.f.controller.OuttypeController - 账号：110删除出库类型：Outtype [id=511, outtypeNumber=A, outtypeName=, note=]
+14:38:48.914 [http-bio-8080-exec-5] INFO  c.e.f.controller.OuttypeController - 账号：110查看所有出库信息
+14:38:50.756 [http-bio-8080-exec-5] INFO  c.e.f.controller.OuttypeController - 账号：110查看所有出库信息
+14:38:51.670 [http-bio-8080-exec-5] INFO  c.e.f.controller.OuttypeController - 账号：110删除出库信息：Outstock [id=346, number=outstock_167, date=Sun May 15 22:14:54 CST 2016, dateBefore=null, dateAfter=null, type=搬运出库_167, receiver=领用人, dept=领用部门, operator=操作人, items=苹果手机_167, sumNum=2, sumMoney=10500.0, note=出库备注, itemsCustom=null]
+14:38:52.931 [http-bio-8080-exec-5] INFO  c.e.f.controller.OuttypeController - 账号：110查看所有出库信息
+14:38:55.767 [http-bio-8080-exec-8] INFO  c.e.f.controller.OuttypeController - 账号：110修改出库信息。修改前：Outstock [id=22, number=outstock_10, date=Fri Apr 29 13:30:02 CST 2016, dateBefore=null, dateAfter=null, type=搬运出库_10, receiver=领用人, dept=领用部门, operator=操作人, items=苹果手机_10, sumNum=2, sumMoney=10500.0, note=出库备注, itemsCustom=null]修改后：Outstock [id=22, number=outstock_10, date=Fri Apr 29 13:30:02 CST 2016, dateBefore=null, dateAfter=null, type=搬运出库_10, receiver=领用人, dept=领用部门, operator=操作人, items=苹果手机_10, sumNum=0, sumMoney=0.0, note=出库备注A, itemsCustom=null]
+14:38:56.476 [http-bio-8080-exec-8] INFO  c.e.f.controller.OuttypeController - 账号：110查看所有出库信息
+14:38:58.359 [http-bio-8080-exec-8] INFO  c.e.f.controller.OuttypeController - 账号：110增加出库信息:Outstock [id=0, number=, date=null, dateBefore=null, dateAfter=null, type=, receiver=, dept=, operator=, items=, sumNum=0, sumMoney=0.0, note=, itemsCustom=null]
+14:39:03.487 [http-bio-8080-exec-3] INFO  c.e.f.controller.OuttypeController - 账号：110增加出库信息:Outstock [id=0, number=A, date=null, dateBefore=null, dateAfter=null, type=, receiver=, dept=, operator=, items=, sumNum=0, sumMoney=0.0, note=, itemsCustom=null]
+14:39:25.893 [http-bio-8080-exec-9] INFO  c.e.f.controller.OuttypeController - 账号：110增加出库信息:Outstock [id=0, number=, date=null, dateBefore=null, dateAfter=null, type=ASD, receiver=, dept=, operator=, items=, sumNum=0, sumMoney=0.0, note=, itemsCustom=null]
+14:39:27.227 [http-bio-8080-exec-1] INFO  c.e.f.controller.OuttypeController - 账号：110查看所有出库信息
+14:39:37.124 [http-bio-8080-exec-1] INFO  c.e.f.controller.OuttypeController - 账号：110增加出库信息:Outstock [id=0, number=, date=Fri Apr 29 13:30:01 CST 2016, dateBefore=null, dateAfter=null, type=, receiver=, dept=, operator=, items=, sumNum=0, sumMoney=0.0, note=, itemsCustom=null]
+14:39:38.563 [http-bio-8080-exec-1] INFO  c.e.f.controller.OuttypeController - 账号：110查看所有出库信息
+15:34:59.095 [http-bio-8080-exec-6] INFO  c.e.f.controller.SuptypeController - 账号：117查看供应商类型
+15:39:58.458 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+15:40:02.521 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+15:40:09.755 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110修改管理人员。修改前：Manager [id=117, name=宝马, md5Password=b5015f2a62e736e4706d558d41b10898, salt=2J0616c42E385CXXq25c04h28368j6m3J9w9o0cgQ77y79, permission=1-2-3-4-5, role=2, state=1]修改后：Manager [id=117, name=宝马, md5Password=null, salt=null, permission=1-2, role=2, state=0]
+15:40:11.359 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+15:40:15.319 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+15:41:49.335 [http-bio-8080-exec-9] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+15:41:50.671 [http-bio-8080-exec-9] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+15:41:57.944 [http-bio-8080-exec-9] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+22:58:12.458 [http-bio-8080-exec-13] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+22:58:54.623 [http-bio-8080-exec-11] INFO  c.e.f.controller.ManagerController - 账号：110添加管理人员:Manager [id=55, name=ca, md5Password=null, salt=null, permission=2-3-4, role=2, state=0]
+22:59:00.750 [http-bio-8080-exec-11] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:12:50.349 [http-bio-8080-exec-5] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+23:13:05.716 [http-bio-8080-exec-5] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+23:21:39.343 [http-bio-8080-exec-1] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+23:24:12.109 [http-bio-8080-exec-5] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:24:23.051 [http-bio-8080-exec-5] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:24:49.417 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:24:58.642 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110修改管理人员。修改前：Manager [id=110, name=张三, md5Password=43e2a90fd66ddff6f73523a8dc9f0891, salt=h0e0U0cc9e2B1y7upbC036f, permission=1-2-3-4-5-6-, role=1, state=1]修改后：Manager [id=110, name=张三, md5Password=null, salt=null, permission=1-2-3-4-5-6, role=1, state=0]
+23:25:04.178 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:25:07.739 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:25:08.450 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:25:09.107 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:25:10.258 [http-bio-8080-exec-3] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:26:25.952 [http-bio-8080-exec-8] INFO  c.e.f.controller.ManagerController - 账号：110修改管理人员。修改前：Manager [id=110, name=张三, md5Password=43e2a90fd66ddff6f73523a8dc9f0891, salt=h0e0U0cc9e2B1y7upbC036f, permission=1-2-3-4-5-6, role=1, state=1]修改后：Manager [id=110, name=张三, md5Password=null, salt=null, permission=1-2-3-4-5-6, role=1, state=0]
+23:26:44.190 [http-bio-8080-exec-8] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:26:46.509 [http-bio-8080-exec-8] INFO  c.e.f.controller.ManagerController - 账号：110修改管理人员。修改前：Manager [id=110, name=张三, md5Password=43e2a90fd66ddff6f73523a8dc9f0891, salt=h0e0U0cc9e2B1y7upbC036f, permission=1-2-3-4-5-6, role=1, state=1]修改后：Manager [id=110, name=张三, md5Password=null, salt=null, permission=1-2-3-4-5-6, role=1, state=0]
+23:27:17.692 [http-bio-8080-exec-6] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:27:19.501 [http-bio-8080-exec-6] INFO  c.e.f.controller.ManagerController - 账号：110修改管理人员。修改前：Manager [id=110, name=张三, md5Password=43e2a90fd66ddff6f73523a8dc9f0891, salt=h0e0U0cc9e2B1y7upbC036f, permission=1-2-3-4-5-6, role=1, state=1]修改后：Manager [id=110, name=张三, md5Password=null, salt=null, permission=1-2-3-4-5-6, role=1, state=0]
+23:27:30.186 [http-bio-8080-exec-6] INFO  c.e.f.controller.ManagerController - 账号：110查看管理人员
+23:27:32.062 [http-bio-8080-exec-6] INFO  c.e.f.controller.ManagerController - 账号：110修改管理人员。修改前：Manager [id=110, name=张三, md5Password=43e2a90fd66ddff6f73523a8dc9f0891, salt=h0e0U0cc9e2B1y7upbC036f, permission=1-2-3-4-5-6, role=1, state=1]修改后：Manager [id=110, name=张三, md5Password=null, salt=null, permission=1-2-3-4-5-6, role=1, state=0]
+23:28:33.925 [http-bio-8080-exec-2] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看部门
+23:28:36.810 [http-bio-8080-exec-2] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+23:28:37.682 [http-bio-8080-exec-3] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+23:28:47.404 [http-bio-8080-exec-3] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+23:28:48.563 [http-bio-8080-exec-3] INFO  c.edu.fjnu.controller.DeptController - 账号：110查看所有员工信息
+23:28:51.545 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+23:28:52.548 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看所有物品信息
+23:28:54.330 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+23:28:59.905 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110修改物品类型。修改前：Itemsort [id=766, itemsortNumber=itemsort_1, itemsortName=电子产品, note=物品类型备注A]修改后：Itemsort [id=766, itemsortNumber=itemsort_1, itemsortName=电子产品, note=物品类型备注]
+23:29:01.577 [http-bio-8080-exec-3] INFO  c.e.f.controller.ItemsortController - 账号：110查看物品类型
+23:29:12.357 [http-bio-8080-exec-3] INFO  c.e.f.controller.SuptypeController - 账号：110查看供应商类型
+23:29:14.370 [http-bio-8080-exec-3] INFO  c.e.f.controller.SuptypeController - 账号：110查看所有供应商信息

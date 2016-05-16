@@ -7,13 +7,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
+
 </head>
+
 <body>
 	<center>
 	<h3>系统功能管理</h3><br/>
 	
 	<c:if test="${manager.permission.contains(\"1\")}">
-		<a href="dept.action" target="right_top">部门员工管理</a><br/><br/>
+		<a href="dept.action" target="right_top" >部门员工管理</a><br/><br/>
 	</c:if>
 	<c:if test="${manager.permission.contains(\"2\")}">
 		<a href="itemsort.action" target="right_top">物品分类管理</a><br/><br/>

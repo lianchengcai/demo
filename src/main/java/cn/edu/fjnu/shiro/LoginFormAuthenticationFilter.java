@@ -14,7 +14,9 @@ import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
 import org.apache.shiro.web.util.WebUtils;
+import org.slf4j.LoggerFactory;
 
+import ch.qos.logback.classic.Logger;
 import cn.edu.fjnu.dao.IManagerDao;
 import cn.edu.fjnu.entity.Manager;
 
@@ -25,6 +27,8 @@ import cn.edu.fjnu.entity.Manager;
  * <p>Description:自定义FormAuthenticationFilter，认证之前实现 验证码校验 </p>
  */
 public class LoginFormAuthenticationFilter extends FormAuthenticationFilter {
+	
+	private static Logger log=(Logger) LoggerFactory.getLogger(LoginFormAuthenticationFilter.class);
 	
 	public static final String MainUrl = "/SecurityVerification/main.action";
 
@@ -72,6 +76,7 @@ public class LoginFormAuthenticationFilter extends FormAuthenticationFilter {
 				httpServletRequest.setAttribute("shiroLoginFailure", "disabledAccount");
 				return true;
 			}
+			log.info("尝试登录成功。登录用户："+manager.getId());
 			//将登录信息保存在Session中
 			httpServletRequest.getSession().setAttribute("manager", manager);
 			WebUtils.issueRedirect(request, response,MainUrl);

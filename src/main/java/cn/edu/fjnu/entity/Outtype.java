@@ -29,6 +29,11 @@ public class Outtype {
 	public void setNote(String note) {
 		this.note = note;
 	}
+	@Override
+	public String toString() {
+		return "Outtype [id=" + id + ", outtypeNumber=" + outtypeNumber + ", outtypeName=" + outtypeName + ", note="
+				+ note + "]";
+	}
 	
-
+	
 }

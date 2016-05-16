@@ -8,8 +8,26 @@
 		select * from manager where id=#{id}
 	</select>
 	
+	<select id="findManager" resultType="cn.edu.fjnu.entity.Manager">
+		select * from manager 
+	</select>
 	
+	<select id="findManagerById" parameterType="java.lang.String" resultType="cn.edu.fjnu.entity.Manager">
+		select * from manager where id=#{id}
+	</select>
 	
+	<update id="updateManager" parameterType="cn.edu.fjnu.entity.Manager">
+		update manager set name=#{name},role=#{role},permission=#{permission} where id=#{id}
+	</update>
+	
+	<insert id="addManager" parameterType="cn.edu.fjnu.entity.Manager">
+		insert into manager(id,name,md5_password,salt,permission,role,state) 
+		values(#{id},#{name},#{md5Password},#{salt},#{permission},#{role},#{state}) 
+	</insert>
+	
+	<delete id="deleteManager" parameterType="java.lang.String">
+		delete from manager where id =#{id}
+	</delete>
 	
 </mapper> 
 

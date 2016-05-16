@@ -17,13 +17,14 @@
 			<td>角色</td>
 			<td colspan="2" align="center">操作</td>
 		</tr>
-		<c:forEach items="${managerList }" var="items">
+		<c:forEach items="${managerList }" var="manager">
 			<tr>
-				<td>${items.number }</td>
-				<td>${items.name }</td>
-				<td>${items.sort }</td>
-				<td align="center"><a href="${pageContext.request.contextPath }/updateItems.action?id=${items.id }">修改</a></td>
-				<td align="center"><a href="${pageContext.request.contextPath }/deleteItems.action?id=${items.id }">删除</a></td>
+				<td>${manager.id }</td>
+				<td>${manager.name }</td>
+				<td>${manager.permission }</td>
+				<td>${manager.role }</td>
+				<td align="center"><a href="${pageContext.request.contextPath }/updateManager.action?id=${manager.id }">修改</a></td>
+				<td align="center"><a href="${pageContext.request.contextPath }/deleteManager.action?id=${manager.id}">删除</a></td>
 				
 			</tr>
 		</c:forEach>
@@ -31,9 +32,9 @@
 	<!-- 分页 -->
 	<center>
 		第${pageList.pageNo }/共${pageList.pages }页
-		<a href="${pageContext.request.contextPath }/findItems.action?pageNo=1">首页</a>
+		<a href="${pageContext.request.contextPath }/findManager.action?pageNo=1">首页</a>
 		<c:if test="${pageList.pageNo>1 }">
-			<a href="${pageContext.request.contextPath }/findItems.action?pageNo=${pageList.pageNo-1 }">上一页</a>
+			<a href="${pageContext.request.contextPath }/findManager.action?pageNo=${pageList.pageNo-1 }">上一页</a>
 		</c:if>
 		<!-- 计算begin，end -->
 		<c:choose>
@@ -74,16 +75,16 @@
 					[${i }]
 				</c:when>
 				<c:otherwise>
-					<a href="${pageContext.request.contextPath }/findItems.action?pageNo=${i }">[${i }]</a>
+					<a href="${pageContext.request.contextPath }/findManager.action?pageNo=${i }">[${i }]</a>
 				</c:otherwise>
 			</c:choose>
 		</c:forEach>
 		
 		<c:if test="${pageList.pageNo<pageList.pages }">
-			<a href="${pageContext.request.contextPath }/findItems.action?pageNo=${pageList.pageNo+1 }">下一页</a>
+			<a href="${pageContext.request.contextPath }/findManager.action?pageNo=${pageList.pageNo+1 }">下一页</a>
 		</c:if>
 	
-		<a href="${pageContext.request.contextPath }/findItems.action?pageNo=${pageList.pages }">尾页</a>		
+		<a href="${pageContext.request.contextPath }/findManager.action?pageNo=${pageList.pages }">尾页</a>		
 	</center> 
 </form>
 </body>

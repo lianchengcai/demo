@@ -29,6 +29,10 @@ public class Dept {
 	public void setNote(String note) {
 		this.note = note;
 	}
+	@Override
+	public String toString() {
+		return "Dept [id=" + id + ", deptNumber=" + deptNumber + ", deptName=" + deptName + ", note=" + note + "]";
+	}
 	
 	
 }
